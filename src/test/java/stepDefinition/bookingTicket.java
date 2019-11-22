@@ -43,14 +43,14 @@ public class bookingTicket extends home_page {
 	     r.keyRelease(KeyEvent.VK_ENTER);
 	     c.functionClick(b.getTO());
 	     c.typeData(b.getTO(), "Coimbatore");
-			Thread.sleep(3000);
+		Thread.sleep(3000);
 	     r.keyPress(KeyEvent.VK_ENTER);
 	     r.keyRelease(KeyEvent.VK_ENTER);
 	     c.functionClick(b.getSelectDate());
 	     WebDriverWait wait = new WebDriverWait(driver, 10);
-	     WebElement day = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"datePickerContainer\"]/div/div[1]/table/tbody/tr[1]/td[6]/a")));
+	     WebElement day = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"datePickerContainer\"]/div/div[2]/table/tbody/tr[1]/td[1]/a")));
 	     c.functionClick(b.getSelectDay());
-			Thread.sleep(2000);
+		Thread.sleep(2000);
 	     c.functionClick(b.getChild());
 	     c.functionClick(b.getSearchbtn());
 	     
