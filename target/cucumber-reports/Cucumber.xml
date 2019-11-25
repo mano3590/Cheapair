@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
-<testcase classname="Title of your feature" name="User enter the details for booking ticket" time="0">
-<skipped><![CDATA[Given User Launch the browser and CheapAir portal...........................undefined
-When User Choose the mode of travel.........................................undefined
-And User enter the Source, Destination, date and passenger details..........undefined
-Then User enter the search flights button...................................undefined
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.953465">
+<testcase classname="Title of your feature" name="User enter the details for booking ticket" time="31.953465">
+<system-out><![CDATA[Given User Launch the browser and CheapAir portal...........................passed
+When User Choose the mode of travel.........................................passed
+And User enter the Source, Destination, date and passenger details..........passed
+Then User enter the search flights button...................................passed
+]]></system-out>
 </testcase>
 </testsuite>

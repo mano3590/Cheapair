@@ -12,38 +12,50 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 17141341050,
+              "status": "passed"
             },
             "line": 7,
             "name": "User Launch the browser and CheapAir portal",
-            "match": {},
+            "match": {
+              "location": "bookingTicket.user_Launch_the_browser_and_CheapAir_portal()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 707202592,
+              "status": "passed"
             },
             "line": 8,
             "name": "User Choose the mode of travel",
-            "match": {},
+            "match": {
+              "location": "bookingTicket.user_Choose_the_mode_of_travel()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 14104871803,
+              "status": "passed"
             },
             "line": 9,
             "name": "User enter the Source, Destination, date and passenger details",
-            "match": {},
+            "match": {
+              "location": "bookingTicket.user_enter_the_Source_Destination_date_and_passenger_details()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 50033,
+              "status": "passed"
             },
             "line": 10,
             "name": "User enter the search flights button",
-            "match": {},
+            "match": {
+              "location": "bookingTicket.user_enter_the_search_flights_button()"
+            },
             "keyword": "Then "
           }
         ],

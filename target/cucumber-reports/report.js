@@ -46,20 +46,32 @@ formatter.step({
   "name": "User enter the search flights button",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "bookingTicket.user_Launch_the_browser_and_CheapAir_portal()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 17141341050,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "bookingTicket.user_Choose_the_mode_of_travel()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 707202592,
+  "status": "passed"
+});
+formatter.match({
+  "location": "bookingTicket.user_enter_the_Source_Destination_date_and_passenger_details()"
+});
+formatter.result({
+  "duration": 14104871803,
+  "status": "passed"
+});
+formatter.match({
+  "location": "bookingTicket.user_enter_the_search_flights_button()"
+});
+formatter.result({
+  "duration": 50033,
+  "status": "passed"
 });
 });
